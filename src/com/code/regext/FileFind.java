@@ -12,8 +12,7 @@ public class FileFind {
 
 	public static void main(String[] args) {
 		Pattern p = Pattern.compile("\\w*the\\w*", Pattern.CASE_INSENSITIVE);
-		File file = new File(
-				"E:\\Git\\Code\\JavaStudy\\src\\com\\code\\regext\\AI.txt");
+		File file = new File("AI.txt");
 		BufferedReader reader = null;
 		try {
 			reader = new BufferedReader(new FileReader(file));
