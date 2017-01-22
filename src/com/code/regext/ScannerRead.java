@@ -7,10 +7,9 @@ import java.util.Scanner;
 public class ScannerRead {
 
 	public static BufferedReader input = new BufferedReader(new StringReader(
-			"Artificial intelligence"));
+			"Artificial intelligence\n 1 3.14"));
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner stdin = new Scanner(ScannerRead.input);
 		System.out.println("What is your name?");
 		String name = stdin.nextLine();
